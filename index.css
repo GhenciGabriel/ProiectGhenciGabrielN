@@ -1,0 +1,53 @@
+.logo {
+    width: 50px ;
+    }
+    
+    .cardiologie {
+    height: 220px ;
+    }
+    
+    .stomatologie {
+    height: 220px;
+    }
+    
+    .program{
+        width: 500px;
+    }
+    
+    body{
+        background-image: url(images/v870-tang-36.jpg );
+        background-size: cover;
+    }
+    
+    .card-body{
+        background-color:#b3ffe6 ;
+    }
+
+    .card-text{
+        color: black;
+    }
+    
+    .album{
+        background: linear-gradient(#b3ffe6,#ccffee,#e6fff7);
+        padding-left: 30px;
+        margin-left: 150px;
+        margin-right: 150px;
+        border-radius: 25px;
+        padding: 20px;
+  
+
+    }
+    
+    .ocupatie{
+        font-size: 50px;
+    }
+
+    .info{
+        text-align: center;
+        margin-top: 100px;
+    }
+    .info2{
+        margin-left: 100px;
+        margin-top: 100px;
+        font-size: large;
+    }

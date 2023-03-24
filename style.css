@@ -1,0 +1,150 @@
+
+
+
+
+.container .title{
+    width: 300px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
+
+}
+.container .title::before{
+    content:'';
+    position:absolute;
+    height: 3px;
+    width: 30px;
+    background: linear-gradient(135deg,  #a28089, #8458B3, #d0bdf4, #e5eaf5, #a0d2eb);
+}
+
+.container form .user-details{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+
+form .user-details .input-box{
+    width: calc(100% / 2 - 20px);
+}
+
+
+.user-details .input-box input{
+    height: 45px;
+    width: 100%;
+}
+
+
+ form .button{
+    height: 45px;
+    margin: 45px;
+}
+
+form .button input{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    color: black;
+    background: #7fffd4;
+    border: none;
+    
+
+}
+
+
+.listapret{
+    font-size: x-large;
+    padding-left: 10px;
+    margin-left: 20%;
+    margin-top: 100px;
+    width: 50%;
+    
+}
+
+
+.l1{
+    background-color: #c9ffe5;
+}
+.l2{
+    background-color: #c9ffe5;
+}
+.l3{
+    background-color: #c9ffe5;
+}
+.l4{
+    background-color: #c9ffe5;
+}
+.l5{
+    background-color: #c9ffe5;
+}
+
+.titlu{
+    font-size: 100px;
+}
+
+.label{
+    display: flex;
+}
+
+.detaliu-doctor .categorie label{
+display: flex;
+align-items:center ;
+
+}
+
+.detaliu-doctor .categorie .dot{
+   height: 18px;
+   width: 18px;
+    background: #282828;
+    border-radius: 50%;
+    margin-right: 10px;
+    border: 5px solid white transparent
+}
+
+#dot-1:checked ~ .categorie label .one,
+#dot-2:checked ~ .categorie label .two{
+    border-color: white ;
+    background:white ;
+}
+form input[type="radio"]{
+    display: none;
+}
+
+@media (max-width: 584px){.container{
+    max-width: 100%;
+}
+
+form .user-details .input-box{
+    margin-bottom: 15px;
+    width: 100%;
+}
+}
+
+.program{
+    font-size:x-large;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+
+}
+
+
+.stilpret{
+    background: linear-gradient(#b3ffe6,#ccffee,#e6fff7);
+    padding-left: 20px;
+    margin-left: 325px;
+    margin-right: 525px;
+    margin-bottom: 20px;
+}
+
+
+.container1{
+    background: linear-gradient(#b3ffe6,#ccffee,#e6fff7);
+    margin-left: 20px;
+    border-left: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    padding-top: 20px;
+
+
+
+}
+
